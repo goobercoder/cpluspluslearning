@@ -31,5 +31,13 @@ int main() {
     //fun fact: strings are an array of characters
     char stingg[] = "hello world";
     cout << stingg << endl;
+
+
+    //you can also iterate over an array
+    string array[] = {"funnystuff", "hellofunny", "yay"};
+
+    for(int i = 0; i < sizeof(array)/sizeof(string); i++) {
+        cout << array[i] << endl;
+    }
     return 0;
 }
