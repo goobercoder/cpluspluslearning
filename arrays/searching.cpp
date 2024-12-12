@@ -14,7 +14,16 @@ int main() {
     int mynum;
     cout << ": ";
     cin >> mynum;
-    // make done
+    
+    index = searcharray(array, size, mynum);
+    
+    if(index != -1) {
+        index += 1;
+        cout << "the place is: " << index << endl;
+    }
+    else {
+        cout << "not found" << endl;
+    }
 
 
 
