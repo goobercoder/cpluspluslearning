@@ -18,7 +18,7 @@ int main() {
     fill(array, array + (size / 4), "goober");
     fill(array + (size / 4), array + (size / 4)*2, "goog");
     fill(array + (size / 4)*2, array + (size / 4)*3, "hehe");
-    fill(array + (size / 4)*3, array + size, "fucker");
+    fill(array + (size / 4)*3, array + size, "nuts");
 
     for(string thing : array) {
         cout << thing << ' ';
