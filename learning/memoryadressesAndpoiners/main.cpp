@@ -37,6 +37,12 @@ int main() {
 
     show(hello, world);
 
+    //the memory adresses can also be "in a variable" of sorts.
+    string name = "goober";
+    string *pName = &name;
+
+    cout << "name contents: " << name << " name adress: " << &name << " pointer contents:" << pName << " pointer dereferenced: " << *pName << endl;
+
     return 0;
 }
 
