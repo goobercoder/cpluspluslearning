@@ -43,6 +43,9 @@ int main() {
 
     cout << "name contents: " << name << " name adress: " << &name << " pointer contents:" << pName << " pointer dereferenced: " << *pName << endl;
 
+    // if you cant decide what you want your pointer to be it can be nullptr
+    int *idk = nullptr;
+
     return 0;
 }
 
